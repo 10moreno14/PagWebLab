@@ -1,20 +1,17 @@
-/* Reseteo básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo del body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Estilo del header */
 header {
-    background: #4CAF50; /* Verde */
+    background: #4CAF50; 
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -35,33 +32,30 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Estilo del main */
 main {
     padding: 20px;
 }
 
-/* Sección de productos */
 .productos {
     display: flex;
-    flex-wrap: wrap; /* Permitir que los elementos se ajusten a múltiples líneas */
-    justify-content: space-between; /* Espaciado uniforme entre los productos */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
 }
 
-/* Estilo de cada producto */
 .producto {
     background: white;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin: 10px;
     padding: 15px;
-    width: calc(25% - 20px); /* Ancho de 4 productos por fila */
+    width: calc(25% - 20px); 
     text-align: center;
     transition: box-shadow 0.3s;
 }
 
 .producto img {
-    max-width: 100%; /* Asegurar que la imagen no desborde el contenedor */
-    height: auto; /* Mantener proporciones */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .producto h3 {
@@ -72,9 +66,8 @@ main {
     margin: 10px 0;
 }
 
-/* Estilo del botón */
 button {
-    background: #4CAF50; /* Verde */
+    background: #4CAF50; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -84,12 +77,11 @@ button {
 }
 
 button:hover {
-    background: #45a049; /* Verde más oscuro en hover */
+    background: #45a049; 
 }
 
-/* Estilo del footer */
 footer {
-    background: #4CAF50; /* Verde */
+    background: #4CAF50; 
     color: white;
     text-align: center;
     padding: 10px 0;
