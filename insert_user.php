@@ -1,5 +1,5 @@
 <?php
-$servername = "192.168.1.41"; // Cambia a la IP si es necesario
+$servername = "192.168.1.41"; 
 $username = "database";
 $password = "DataAdm1n*";
 $dbname = "users";
@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 
 // Datos del nuevo usuario
 $new_username = 'smoreno';
-$new_password = 'Octubre14.'; // Cambia por la contraseña que desees
+$new_password = 'Octubre14.';
 $hashed_password = password_hash($new_password, PASSWORD_DEFAULT);
 
 // Preparar y ejecutar la inserción
